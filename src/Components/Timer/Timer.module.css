@@ -1,0 +1,28 @@
+.timerWrapp {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.timerValue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  font-size: 50px;
+  font-weight: 900;
+}
+.timerBtnWrapp {
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+.timerBtn {
+  height: 100%;
+  width: 33.3333%;
+  color: aqua;
+  font-size: 20px;
+  background: #0100f4;
+  border: 1px solid #8e8edf;
+  cursor: pointer;
+}

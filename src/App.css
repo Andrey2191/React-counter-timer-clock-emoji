@@ -1,0 +1,93 @@
+* {
+  outline: none;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.counterWrap {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 374px;
+  height: 374px;
+  border: 1px solid #222;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: rgb(126, 126, 126);
+  font-size: 130px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  padding: 0;
+  width: 133px;
+  height: 134px;
+  font-size: 60px;
+  border: none;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btnPlus {
+  background-color: rgb(0, 196, 0);
+}
+
+.btnNullify {
+  font-size: 70px;
+  color: #222;
+  background-color: rgba(255, 187, 0, 0.877);
+}
+
+.btnMinus {
+  background-color: rgb(201, 0, 0);
+  font-size: 70px;
+}
+
+.appClock {
+  font-size: 140px;
+  font-weight: 500;
+}
+
+.timerWrapp {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.timerValue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  font-size: 50px;
+  font-weight: 900;
+}
+.timerBtnWrapp {
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+.timerBtn {
+  height: 100%;
+  width: 33.3333%;
+  color: aqua;
+  font-size: 20px;
+  background: #0100f4;
+  border: 1px solid #8e8edf;
+  cursor: pointer;
+}
